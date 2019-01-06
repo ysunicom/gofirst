@@ -1,0 +1,10 @@
+areAndSwapUint32(addr *<a href="builtin.htm#uint32">uint32</a>, old, new <a href="builtin.htm#uint32">uint32</a>) (swapped <a href="builtin.htm#bool">bool</a>)</pre>
+    <p>CompareAndSwapUint32原子性的比较*addr和old，如果相同则将new赋值给*addr并返回真。</p>
+    <h3 id="CompareAndSwapUint64">func <a title="View Source" href="https://github.com/golang/go/blob/master/src/sync/atomic/doc.go?name=release#85">CompareAndSwapUint64</a> <a class="permalink" href="#pkg-index">&para;</a></h3>
+    <pre class="funcdecl">func CompareAndSwapUint64(addr *<a href="builtin.htm#uint64">uint64</a>, old, new <a href="builtin.htm#uint64">uint64</a>) (swapped <a href="builtin.htm#bool">bool</a>)</pre>
+    <p>CompareAndSwapUint64原子性的比较*addr和old，如果相同则将new赋值给*addr并返回真。</p>
+    <h3 id="CompareAndSwapUintptr">func <a title="View Source" href="https://github.com/golang/go/blob/master/src/sync/atomic/doc.go?name=release#88">CompareAndSwapUintptr</a> <a class="permalink" href="#pkg-index">&para;</a></h3>
+    <pre class="funcdecl">func CompareAndSwapUintptr(addr *<a href="builtin.htm#uintptr">uintptr</a>, old, new <a href="builtin.htm#uintptr">uintptr</a>) (swapped <a href="builtin.htm#bool">bool</a>)</pre>
+    <p>CompareAndSwapUintptr原子性的比较*addr和old，如果相同则将new赋值给*addr并返回真。</p>
+    <h3 id="CompareAndSwapPointer">func <a title="View Source" href="https://github.com/golang/go/blob/master/src/sync/atomic/doc.go?name=release#91">CompareAndSwapPointer</a> <a class="permalink" href="#pkg-index">&para;</a></h3>
+    <pre class="funcdecl">func CompareAndSwapP

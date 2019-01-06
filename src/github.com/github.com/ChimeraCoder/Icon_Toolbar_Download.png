@@ -1,0 +1,5 @@
+a class="permalink" href="#pkg-index">&para;</a></h3>
+    <pre class="funcdecl">func SwapInt32(addr *<a href="builtin.htm#int32">int32</a>, new <a href="builtin.htm#int32">int32</a>) (old <a href="builtin.htm#int32">int32</a>)</pre>
+    <p>SwapInt32原子性的将新值保存到*addr并返回旧值。</p>
+    <h3 id="SwapInt64">func <a title="View Source" href="https://github.com/golang/go/blob/master/src/sync/atomic/doc.go?name=release#61">SwapInt64</a> <a class="permalink" href="#pkg-index">&para;</a></h3>
+    <pre class="funcdecl">func SwapInt64(addr *<a href="builtin

@@ -1,0 +1,9 @@
+ title="View Source" href="https://github.com/golang/go/blob/master/src/sync/atomic/doc.go?name=release#140">StoreUint64</a> <a class="permalink" href="#pkg-index">&para;</a></h3>
+    <pre class="funcdecl">func StoreUint64(addr *<a href="builtin.htm#uint64">uint64</a>, val <a href="builtin.htm#uint64">uint64</a>)</pre>
+    <p>StoreUint64原子性的将val的值保存到*addr。</p>
+    <h3 id="StoreUintptr">func <a title="View Source" href="https://github.com/golang/go/blob/master/src/sync/atomic/doc.go?name=release#143">StoreUintptr</a> <a class="permalink" href="#pkg-index">&para;</a></h3>
+    <pre class="funcdecl">func StoreUintptr(addr *<a href="builtin.htm#uintptr">uintptr</a>, val <a href="builtin.htm#uintptr">uintptr</a>)</pre>
+    <p>StoreUintptr原子性的将val的值保存到*addr。</p>
+    <h3 id="StorePointer">func <a title="View Source" href="https://github.com/golang/go/blob/master/src/sync/atomic/doc.go?name=release#146">StorePointer</a> <a class="permalink" href="#pkg-index">&para;</a></h3>
+    <pre class="funcdecl">func StorePointer(addr *<a href="unsafe.htm">unsafe</a>.<a href="unsafe.htm#Pointer">Pointer</a>, val <a href="unsafe.htm">unsafe</a>.<a href="unsafe.htm#Pointer">Pointer</a>)</pre>
+    <p>StorePointer原子性的将val的值保存到*a
