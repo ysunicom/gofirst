@@ -5,6 +5,13 @@ type UserCredential struct {
 	Pwd      string `json:"pwd"`
 }
 
+//respose
+type SigneUp struct {
+	Sussess   bool   `json:"sussess"`
+	SessionId string `json:"session_id"`
+}
+
+//data modle
 type VideoInfo struct {
 	Id           string
 	AuthorId     int
