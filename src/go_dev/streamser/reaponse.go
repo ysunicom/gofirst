@@ -1,10 +1,11 @@
 package main
-{
+
+import (
 	"io"
-	"encoding/json"
 	"net/http"
-}
-func sendErroResponse(w http.ResponseWriter,sc int,errMsg string){
+)
+
+func sendErroResponse(w http.ResponseWriter, sc int, errMsg string) {
 	w.WriteHeader(sc)
-	io.WriteString(w,errMsg)
+	io.WriteString(w, errMsg)
 }
