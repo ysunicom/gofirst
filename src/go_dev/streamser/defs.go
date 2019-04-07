@@ -1,3 +1,5 @@
 package main
 
-var ()
+const (
+	VIDEO_DIR = "../videos/"
+)
